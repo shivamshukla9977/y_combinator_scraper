@@ -1,4 +1,3 @@
-# app/services/y_combinator_scraper.rb
 
 require 'httparty'
 require 'nokogiri'
@@ -17,7 +16,7 @@ class CombinatorScraper
   def scrape
     companies = []
     page = 1
-     debugger
+     
     while companies.size < @n
       response = HTTParty.get("#{BASE_URL}?page=#{page}")
       parsed_page = Nokogiri::HTML(response.body)

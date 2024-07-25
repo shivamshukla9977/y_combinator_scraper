@@ -2,7 +2,7 @@ class CompaniesController < ApplicationController
   def index
     n = params[:n].to_i
     filters = params[:filters] || {}
-    debugger
+    
     scraper = CombinatorScraper.new(n, filters)
     companies = scraper.scrape
 
