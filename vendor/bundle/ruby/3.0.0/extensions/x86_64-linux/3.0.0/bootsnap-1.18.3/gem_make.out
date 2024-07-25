@@ -1,0 +1,19 @@
+current directory: /home/kumar/Desktop/y_combinator_scraper/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+/home/kumar/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/kumar/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20240723-12215-edyyf1.rb extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/kumar/Desktop/y_combinator_scraper/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/kumar/Desktop/y_combinator_scraper/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/kumar/Desktop/y_combinator_scraper/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240723-12215-9zf2oa/bootsnap
